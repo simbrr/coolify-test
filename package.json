@@ -1,0 +1,14 @@
+{
+  "name": "coolify-test",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Disposable Coolify smoke test. No dependencies, database, or external services.",
+  "type": "module",
+  "engines": {
+    "node": ">=26.13.0 <27"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
